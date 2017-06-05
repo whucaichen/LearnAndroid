@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LearnAndroid.iml" filepath="$PROJECT_DIR$/LearnAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app_test/app_test.iml" filepath="$PROJECT_DIR$/app_test/app_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common_utils/common_utils.iml" filepath="$PROJECT_DIR$/common_utils/common_utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn_2dcode/learn_2dcode.iml" filepath="$PROJECT_DIR$/learn_2dcode/learn_2dcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn_4component/learn_4component.iml" filepath="$PROJECT_DIR$/learn_4component/learn_4component.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn_asynctask/learn_asynctask.iml" filepath="$PROJECT_DIR$/learn_asynctask/learn_asynctask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn_binder/learn_binder.iml" filepath="$PROJECT_DIR$/learn_binder/learn_binder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn_customview/learn_customview.iml" filepath="$PROJECT_DIR$/learn_customview/learn_customview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn_dialog/learn_dialog.iml" filepath="$PROJECT_DIR$/learn_dialog/learn_dialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn_fragment/learn_fragment.iml" filepath="$PROJECT_DIR$/learn_fragment/learn_fragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn_gridview/learn_gridview.iml" filepath="$PROJECT_DIR$/learn_gridview/learn_gridview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn_hybrid/learn_hybrid.iml" filepath="$PROJECT_DIR$/learn_hybrid/learn_hybrid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn_listview/learn_listview.iml" filepath="$PROJECT_DIR$/learn_listview/learn_listview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn_native/learn_native.iml" filepath="$PROJECT_DIR$/learn_native/learn_native.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn_service/learn_service.iml" filepath="$PROJECT_DIR$/learn_service/learn_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn_videoview/learn_videoview.iml" filepath="$PROJECT_DIR$/learn_videoview/learn_videoview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/notepad/notepad.iml" filepath="$PROJECT_DIR$/notepad/notepad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/permission/permission.iml" filepath="$PROJECT_DIR$/permission/permission.iml" />
+      <module fileurl="file://$PROJECT_DIR$/use_bottombar/use_bottombar.iml" filepath="$PROJECT_DIR$/use_bottombar/use_bottombar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/use_butterknife/use_butterknife.iml" filepath="$PROJECT_DIR$/use_butterknife/use_butterknife.iml" />
+      <module fileurl="file://$PROJECT_DIR$/use_circularanim/use_circularanim.iml" filepath="$PROJECT_DIR$/use_circularanim/use_circularanim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/use_glide/use_glide.iml" filepath="$PROJECT_DIR$/use_glide/use_glide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/use_rabbitmq/use_rabbitmq.iml" filepath="$PROJECT_DIR$/use_rabbitmq/use_rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/verifydemoapp/verifydemoapp.iml" filepath="$PROJECT_DIR$/verifydemoapp/verifydemoapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/verifyhybridappstart/verifyhybridappstart.iml" filepath="$PROJECT_DIR$/verifyhybridappstart/verifyhybridappstart.iml" />
+    </modules>
+  </component>
+</project>

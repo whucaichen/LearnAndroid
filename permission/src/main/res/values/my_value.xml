@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="haha">
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+    </string-array>
+    <integer-array name="xixi">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+
+    <declare-styleable name="ToolBar">
+        <attr name="title" format="string" />
+        <attr name="titleTextSize" format="dimension" />
+        <attr name="titleTextColor" format="color" />
+        <attr name="leftBackground" format="reference|color" />
+        <attr name="leftText" format="string" />
+        <attr name="leftTextColor" format="reference|color" />
+        <attr name="rightBackground" format="reference|color" />
+        <attr name="rightText" format="string" />
+        <attr name="rightTextColor" format="reference|color" />
+
+        <attr name="_background" format="color|reference" />
+        <attr name="_width" format="dimension" />
+        <attr name="_height" format="dimension" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,44 @@
+<!--{cke_protected}{C}%3C!%2D%2D%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%2D%2D%3E-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="事件名："
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/tv_name_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello World!" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新事件名："
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/et_name_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello World!" />
+    </LinearLayout>
+
+</LinearLayout>

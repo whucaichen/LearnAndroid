@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle/gradle-3.3" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app_test" />
+            <option value="$PROJECT_DIR$/common_utils" />
+            <option value="$PROJECT_DIR$/learn_2dcode" />
+            <option value="$PROJECT_DIR$/learn_4component" />
+            <option value="$PROJECT_DIR$/learn_asynctask" />
+            <option value="$PROJECT_DIR$/learn_binder" />
+            <option value="$PROJECT_DIR$/learn_customview" />
+            <option value="$PROJECT_DIR$/learn_dialog" />
+            <option value="$PROJECT_DIR$/learn_fragment" />
+            <option value="$PROJECT_DIR$/learn_gridview" />
+            <option value="$PROJECT_DIR$/learn_hybrid" />
+            <option value="$PROJECT_DIR$/learn_listview" />
+            <option value="$PROJECT_DIR$/learn_native" />
+            <option value="$PROJECT_DIR$/learn_service" />
+            <option value="$PROJECT_DIR$/learn_videoview" />
+            <option value="$PROJECT_DIR$/notepad" />
+            <option value="$PROJECT_DIR$/permission" />
+            <option value="$PROJECT_DIR$/use_bottombar" />
+            <option value="$PROJECT_DIR$/use_butterknife" />
+            <option value="$PROJECT_DIR$/use_circularanim" />
+            <option value="$PROJECT_DIR$/use_glide" />
+            <option value="$PROJECT_DIR$/use_rabbitmq" />
+            <option value="$PROJECT_DIR$/verifydemoapp" />
+            <option value="$PROJECT_DIR$/verifyhybridappstart" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Hello HTML5</title>
+    <script type="text/javascript" src="./icbc_mvtm_sec.js"></script>
+    <script type="text/javascript" src="./jquery-1.4.4.min.js"></script>
+    <script>
+        function hello(){
+            if(egos){
+                egos.hello("Android loves JavaScript!");
+            }
+        }
+        function startApp(){
+            if(egos){
+                egos.startApp("io.whucaichen.verifydemoapp");
+            }
+        }
+
+		function startAppVerify(){
+			var authVersion = mVTMAuthGetVersion();
+			var authData = mVTMAuthGetData();
+			//alert('authVersion:' + authVersion + ',authData:' + authData);
+			var verify = "?authVersion="+authVersion+"&authData="+authData;
+            $("p").text(new Date().toString()+" : "+authData+" : "+authVersion);
+			window.open("icbcamvtmclientapp://cmbcn.icbc.com.cn/"+verify);
+		}
+    </script>
+</head>
+
+<body>
+<h1>这是一个H5页面！</h1>
+<h5>在WebView中通过JS调用Android的Native方法示例</h5>
+<button id="bt_hello" name="hello" onclick="hello()">hello</button>
+<br>
+<button id="bt_startApp" name="startApp" onclick="startApp()">startApp</button>
+<br>
+<a href="icbcamvtmclientapp://cmbcn.icbc.com.cn/?callData=1234">通过URI启动APP</a><br>
+<button id="startAppVerify" name="startAppVerify" onclick="startAppVerify()">带验证启动APP</button>
+<p id="timeTag"></p>
+<br>
+
+</body>
+</html>

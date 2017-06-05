@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.chance.learn_dialog.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/dialg_demo_btn01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="简单提示对话框"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/dialg_demo_btn02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="带确定取消按钮的提示对话框"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/dialg_demo_btn03"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="带多个按钮的提示对话框"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/dialg_demo_btn04"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="单选按钮对话框"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/dialg_demo_btn05"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="多选按钮对话框"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/dialg_demo_btn06"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="列表对话框"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/dialg_demo_btn07"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义对话框"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/dialg_demo_btn08"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="长形进度条"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/dialg_demo_btn09"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="圆形(转圈)进度条"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/dialg_demo_btn10"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="..."
+            android:textSize="12dp" />
+
+    </LinearLayout>
+</LinearLayout>
